@@ -1,0 +1,113 @@
+header{
+    width: 100%;
+    height: 250px;
+    background: url(../img/IMG_E2008.JPG);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.heada{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+    
+h1{
+    font-size: 18px;
+    background-color: #6495ed;
+    text-align: center;
+    border: 2px solid rgb(7, 6, 6);
+}
+
+.headb ul{
+    list-style-type: none;
+}
+
+.headb ul li{
+    display: inline-block;
+    background-color: #6495ed;
+    border: 2px solid rgb(10, 8, 6);
+}
+
+header h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 55px;
+    color: rgb(228, 253, 2);
+    text-shadow:0 0 3px #f00,0 0 4px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00,0 0 3px #f00;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(191, 246, 248);
+}
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-left: 1px dotted black;
+}
+
+.lastchild{
+    border-right: 1px dotted black;
+}
+
+.ryochan1{
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.item1{
+    width: 75%;
+}
+
+.item2{
+    width: 25%;
+}
+
+.item2 ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.item2 li{
+    border-bottom: 1px dotted black;
+}
+
+.articlesmall{
+    width: 47%;
+}
+
+.articlesmall img{
+    width: 99%;
+}
+
+.articlesmall{
+    display: flex;
+}
+
+.articlesmall p{
+    text-align: center;
+}
+
+article h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(245, 242, 208);
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+footer h2{
+    text-align: center;
+}
