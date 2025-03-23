@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リンク集 - マイクラ風デザイン</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2b2b2b;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(45deg, #4CAF50, #8BC34A);
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .link-card {
+            background-color: #333;
+            border: 2px solid #555;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+        }
+
+        a {
+            color: #63e467;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #8BC34A;
+            text-decoration: underline;
+        }
+            @media screen and (max-width: 600px) {
+            main {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .link-card {
+                padding: 15px;
+                font-size: 0.9em;
+            }
+
+            header {
+                font-size: 1.5em;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>マイクラ参加に必要なリンク集</header>
+    <main>
+        <div class="link-card"><a href="https://forms.gle/VWhenfb3A4d9VSND7">参加申し込み</a></div>
+        <div class="link-card"><a href="https://discord.gg/vBx7Q9qV3w">discord参加</a></div>
+        <div class="link-card"><a href="https://forms.gle/KgRVtEbpkznwNq4U7">マンション入居申し込み</a></div>
+        <div class="link-card"><a href="https://forms.gle/YLMH1f29Rd1aFgG77">VC参加申し込み</a></div>
+        <div class="link-card"><a href="https://156ryo.github.io/membership/howtomember.html">メンバーシップ加入方法</a></div>
+        <div class="link-card"><a href="https://www.youtube.com/channel/UCZW2ohmOGZQq2f02lxKcyjA/join">メンバーシップ加入</a></div>
+    </main>
+</body>
+</html>
